@@ -65,7 +65,6 @@ def fetch_employees(
     timeout: float = 10.0,
 ) -> list[dict[str, Any]]:
     "Scrape employee data from API and return list of employee records"
-    last_error: Exception | None = None
 
     for attempt in range(1, retries + 1):
         try:
@@ -79,41 +78,19 @@ def fetch_employees(
 
                 payload = response.read().decode("utf-8")
                 records = pd.read_json(StringIO(payload)).to_dict("records")
-                return extract_employee_records(records)
+                return records
         except HTTPError as exc:
             message = f"API returned non-200 status code: {exc.code}"
             logger.error(message)
             raise EmployeeScraperError(message) from exc
         except (TimeoutError, URLError, ValueError) as exc:
-            last_error = exc
             logger.warning("Attempt %s/%s failed: %s", attempt, retries, exc)
             if attempt < retries:
                 time.sleep(0.5)
 
     message = f"Failed to fetch employee data after {retries} attempts"
     logger.error(message)
-    raise EmployeeScraperError(message) from last_error
-
-
-def extract_employee_records(payload: Any) -> list[dict[str, Any]]:
-    if isinstance(payload, list):
-        records = payload
-    elif isinstance(payload, dict):
-        records = (
-            payload.get("employees")
-            or payload.get("data")
-            or payload.get("records")
-        )
-    else:
-        records = None
-
-    if not isinstance(records, list):
-        raise EmployeeScraperError("JSON response does not contain employee records")
-    if not all(isinstance(record, dict) for record in records):
-        raise EmployeeScraperError("Employee records must be JSON objects")
-
-    return records
-
+    raise EmployeeScraperError(message)
 
 def normalize_employees(records: list[dict[str, Any]]) -> pd.DataFrame:
     df = pd.DataFrame(records)

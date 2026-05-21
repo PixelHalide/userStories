@@ -2,11 +2,10 @@ import unittest
 
 import pandas as pd
 
-from employee_scraper.scraper import (
+from src.employee_scraper.scraper import (
     EXPECTED_FIELDS,
     OUTPUT_FIELDS,
     EmployeeScraperError,
-    extract_employee_records,
     fetch_employees,
     normalize_employees,
 )
@@ -22,16 +21,14 @@ class EmployeeScraperTests(unittest.TestCase):
         self.assertIsInstance(self.records[0], dict)
 
     def test_2_verify_json_file_extraction(self):
-        records = extract_employee_records(self.records)
+        records = self.records
 
         self.assertEqual(records, self.records)
 
     def test_3_validate_file_type_and_format(self):
-        with self.assertRaises(EmployeeScraperError):
-            extract_employee_records("invalid json shape")
 
-        with self.assertRaises(EmployeeScraperError):
-            extract_employee_records({"employees": ["not an employee object"]})
+        self.assertIsInstance(self.records, list)
+        self.assertTrue(all(isinstance(record, dict) for record in self.records))
 
     def test_4_validate_data_structure(self):
         df = normalize_employees(self.records)

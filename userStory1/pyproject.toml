@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-employee-scraper = "employee_scraper.cli:main"
+employee-scraper = "employee_scraper.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
