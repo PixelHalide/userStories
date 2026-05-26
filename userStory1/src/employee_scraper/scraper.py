@@ -78,7 +78,7 @@ def fetch_employees(
 
                 payload = response.read().decode("utf-8")
                 records = pd.read_json(StringIO(payload)).to_dict("records")
-                return records
+                return records # type: ignore
         except HTTPError as exc:
             message = f"API returned non-200 status code: {exc.code}"
             logger.error(message)
@@ -93,32 +93,49 @@ def fetch_employees(
     raise EmployeeScraperError(message)
 
 def normalize_employees(records: list[dict[str, Any]]) -> pd.DataFrame:
-    df = pd.DataFrame(records)
-    validate_columns(df)
+    normalized_rows: list[dict[str, Any]] = []
+    for record in records:
+        try:
+            validate_record(record)
+            normalized_rows.append(normalize_employee_record(record))
+        except EmployeeScraperError:
+            logger.warning("Skipping invalid employee record: %s", record)
 
-    df = df.copy()
-    df["employee_id"] = df["id"].astype(int)
-    df["Full Name"] = (
-        df["first_name"].astype(str).str.strip()
-        + " "
-        + df["last_name"].astype(str).str.strip()
-    ).str.strip()
-    df["email"] = df["email"].astype(str)
-    df["phone"] = df["phone"].apply(normalize_phone)
-    df["gender"] = df["gender"].astype(str)
-    df["age"] = df["age"].astype(int)
-    df["job_title"] = df["job_title"].astype(str)
-    df["years_of_experience"] = df["years_of_experience"].astype(int)
-    df["salary"] = df["salary"].astype(int)
-    df["department"] = df["department"].astype(str)
-    df["designation"] = df["years_of_experience"].apply(get_designation)
+    df = pd.DataFrame(normalized_rows)
 
     output_fields = OUTPUT_FIELDS.copy()
     if "hire_date" in df.columns:
-        df["hire_date"] = df["hire_date"].apply(normalize_date)
         output_fields.append("hire_date")
 
     return df[output_fields]
+
+
+def normalize_employee_record(record: dict[str, Any]) -> dict[str, Any]:
+    normalized_record = {
+        "employee_id": int(record["id"]),
+        "Full Name": f"{str(record['first_name']).strip()} {str(record['last_name']).strip()}".strip(),
+        "email": str(record["email"]),
+        "phone": normalize_phone(record["phone"]),
+        "gender": str(record["gender"]),
+        "age": int(record["age"]),
+        "job_title": str(record["job_title"]),
+        "years_of_experience": int(record["years_of_experience"]),
+        "salary": int(record["salary"]),
+        "department": str(record["department"]),
+        "designation": get_designation(int(record["years_of_experience"])),
+    }
+
+    if "hire_date" in record:
+        normalized_record["hire_date"] = normalize_date(record["hire_date"])
+
+    return normalized_record
+
+
+def validate_record(record: dict[str, Any]) -> None:
+    missing_fields = EXPECTED_FIELDS - set(record)
+    if missing_fields:
+        missing = ", ".join(sorted(missing_fields))
+        raise EmployeeScraperError(f"Employee record is missing fields: {missing}")
 
 
 def add_salary_conversion(

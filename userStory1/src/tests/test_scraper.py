@@ -5,7 +5,6 @@ import pandas as pd
 from src.employee_scraper.scraper import (
     EXPECTED_FIELDS,
     OUTPUT_FIELDS,
-    EmployeeScraperError,
     fetch_employees,
     normalize_employees,
 )
@@ -21,14 +20,11 @@ class EmployeeScraperTests(unittest.TestCase):
         self.assertIsInstance(self.records[0], dict)
 
     def test_2_verify_json_file_extraction(self):
-        records = self.records
-
-        self.assertEqual(records, self.records)
-
-    def test_3_validate_file_type_and_format(self):
-
         self.assertIsInstance(self.records, list)
         self.assertTrue(all(isinstance(record, dict) for record in self.records))
+
+    def test_3_validate_file_type_and_format(self):
+        self.assertTrue(all(EXPECTED_FIELDS.issubset(record.keys()) for record in self.records))
 
     def test_4_validate_data_structure(self):
         df = normalize_employees(self.records)
@@ -41,12 +37,13 @@ class EmployeeScraperTests(unittest.TestCase):
         self.assertEqual(df["salary"].dtype.kind, "i")
 
     def test_5_handle_missing_or_invalid_data(self):
-        with self.assertRaises(EmployeeScraperError):
-            normalize_employees([{"id": 1}])
+        invalid_record = {"id": 1}
+        invalid_phone_record = {**self.records[0], "phone": "not-a-number"}
 
-        invalid_record = {**self.records[0], "phone": "not-a-number"}
-        with self.assertRaises(EmployeeScraperError):
-            normalize_employees([invalid_record])
+        df = normalize_employees([invalid_record, invalid_phone_record, self.records[0]])
+
+        self.assertEqual(len(df), 1)
+        self.assertEqual(df.iloc[0]["employee_id"], int(self.records[0]["id"]))
 
 
 if __name__ == "__main__":
