@@ -1,4 +1,3 @@
-import re
 import logging
 from pathlib import Path
 import requests
@@ -14,14 +13,12 @@ def identify_file_type_from_url(url: str) -> str | None:
     response = requests.head(url, allow_redirects=True, timeout=10)
     response.raise_for_status()
 
-    filename_match = re.search(
-        r'filename="?([^";]+)"?',
-        response.headers.get("Content-Disposition", ""),
-    )
-    if not filename_match:
+    content_disposition = response.headers.get("Content-Disposition", "")
+    if "filename=" not in content_disposition:
         return None
 
-    file_type = filename_match.group(1).rsplit(".", 1)[-1].lower()
+    filename = content_disposition.split("filename=", 1)[1].split(";", 1)[0].strip().strip('"')
+    file_type = filename.rsplit(".", 1)[-1].lower()
     return file_type if file_type in ALLOWED_FILE_TYPES else None
 
 
