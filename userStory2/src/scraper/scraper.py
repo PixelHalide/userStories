@@ -13,7 +13,7 @@ def identify_file_type_from_url(url: str) -> str | None:
     response = requests.head(url, allow_redirects=True, timeout=10)
     response.raise_for_status()
 
-    content_disposition = response.headers.get("Content-Disposition", "")
+    content_disposition = response.headers.get("Content-Disposition", "") # Content-Disposition: attachment; filename="reviews.csv"; size=123
     if "filename=" not in content_disposition:
         return None
 
