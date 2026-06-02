@@ -1,6 +1,6 @@
 import logging
-import mapper
-import scraper
+from . import mapper
+from . import scraper
 
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(name)s:%(message)s")
