@@ -1,0 +1,185 @@
+2026-06-08 23:31:59,136 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/
+2026-06-08 23:32:00,370 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-2.html
+2026-06-08 23:32:02,042 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-3.html
+2026-06-08 23:32:03,229 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-4.html
+2026-06-08 23:32:04,351 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-5.html
+2026-06-08 23:32:05,553 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-6.html
+2026-06-08 23:32:06,684 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-7.html
+2026-06-08 23:32:07,789 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-8.html
+2026-06-08 23:32:09,077 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-9.html
+2026-06-08 23:32:10,174 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-10.html
+2026-06-08 23:32:11,431 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-11.html
+2026-06-08 23:32:12,677 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-12.html
+2026-06-08 23:32:13,837 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-13.html
+2026-06-08 23:32:15,092 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-14.html
+2026-06-08 23:32:16,291 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-15.html
+2026-06-08 23:32:17,461 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-16.html
+2026-06-08 23:32:18,574 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-17.html
+2026-06-08 23:32:19,822 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-18.html
+2026-06-08 23:32:21,038 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-19.html
+2026-06-08 23:32:22,216 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-20.html
+2026-06-08 23:32:23,434 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-21.html
+2026-06-08 23:32:24,638 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-22.html
+2026-06-08 23:32:25,846 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-23.html
+2026-06-08 23:32:26,943 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-24.html
+2026-06-08 23:32:28,092 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-25.html
+2026-06-08 23:32:29,171 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-26.html
+2026-06-08 23:32:31,252 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-27.html
+2026-06-08 23:32:32,337 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-28.html
+2026-06-08 23:32:34,240 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-29.html
+2026-06-08 23:32:35,302 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-30.html
+2026-06-08 23:32:36,598 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-31.html
+2026-06-08 23:32:37,714 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-32.html
+2026-06-08 23:32:39,159 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-33.html
+2026-06-08 23:32:40,285 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-34.html
+2026-06-08 23:32:41,542 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-35.html
+2026-06-08 23:32:42,641 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-36.html
+2026-06-08 23:32:43,780 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-37.html
+2026-06-08 23:32:44,951 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-38.html
+2026-06-08 23:32:46,200 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-39.html
+2026-06-08 23:32:48,319 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-40.html
+2026-06-08 23:32:49,741 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-41.html
+2026-06-08 23:32:51,240 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-42.html
+2026-06-08 23:32:52,346 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-43.html
+2026-06-08 23:32:53,612 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-44.html
+2026-06-08 23:32:54,694 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-45.html
+2026-06-08 23:32:56,189 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-46.html
+2026-06-08 23:32:57,434 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-47.html
+2026-06-08 23:32:58,556 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-48.html
+2026-06-08 23:32:59,835 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-49.html
+2026-06-08 23:33:00,954 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-50.html
+2026-06-09 13:41:38,467 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/
+2026-06-09 13:41:40,087 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-2.html
+2026-06-09 13:41:41,264 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-3.html
+2026-06-09 13:41:42,408 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-4.html
+2026-06-09 13:41:43,691 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-5.html
+2026-06-09 13:41:44,874 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-6.html
+2026-06-09 13:41:45,966 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-7.html
+2026-06-09 13:41:47,099 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-8.html
+2026-06-09 13:41:48,387 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-9.html
+2026-06-09 13:41:49,554 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-10.html
+2026-06-09 13:41:50,710 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-11.html
+2026-06-09 13:41:51,804 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-12.html
+2026-06-09 13:41:52,847 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-13.html
+2026-06-09 13:41:54,089 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-14.html
+2026-06-09 13:41:55,232 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-15.html
+2026-06-09 13:41:56,731 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-16.html
+2026-06-09 13:41:57,851 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-17.html
+2026-06-09 13:41:58,971 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-18.html
+2026-06-09 13:42:00,175 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-19.html
+2026-06-09 13:42:01,301 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-20.html
+2026-06-09 13:45:06,445 WARNING:userStory3.src.scraper.scraper:Could not fetch http://books.toscrape.com/catalogue/page-20.html
+Traceback (most recent call last):
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/util/retry.py", line 498, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pixel/userStories/userStory3/src/scraper/scraper.py", line 43, in fetch_page
+    response = requests.get(url, timeout=20)
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/pixel/userStories/.venv/lib/python3.14/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+2026-06-09 13:45:07,574 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-21.html
+2026-06-09 13:45:08,616 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-22.html
+2026-06-09 13:45:09,803 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-23.html
+2026-06-09 13:45:10,851 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-24.html
+2026-06-09 13:45:11,896 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-25.html
+2026-06-09 13:45:13,196 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-26.html
+2026-06-09 13:45:14,407 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-27.html
+2026-06-09 13:45:15,708 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-28.html
+2026-06-09 13:45:17,211 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-29.html
+2026-06-09 13:45:18,431 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-30.html
+2026-06-09 13:45:19,671 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-31.html
+2026-06-09 13:45:20,998 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-32.html
+2026-06-09 13:45:22,330 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-33.html
+2026-06-09 13:45:23,572 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-34.html
+2026-06-09 13:45:24,805 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-35.html
+2026-06-09 13:45:25,974 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-36.html
+2026-06-09 13:45:27,362 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-37.html
+2026-06-09 13:45:29,003 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-38.html
+2026-06-09 13:45:30,068 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-39.html
+2026-06-09 13:45:31,180 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-40.html
+2026-06-09 13:45:32,459 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-41.html
+2026-06-09 13:45:33,790 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-42.html
+2026-06-09 13:45:35,281 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-43.html
+2026-06-09 13:45:36,667 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-44.html
+2026-06-09 13:45:38,190 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-45.html
+2026-06-09 13:45:39,617 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-46.html
+2026-06-09 13:45:40,909 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-47.html
+2026-06-09 13:45:42,292 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-48.html
+2026-06-09 13:49:01,478 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-49.html
+2026-06-09 13:49:04,242 INFO:userStory3.src.scraper.scraper:Scraping page: http://books.toscrape.com/catalogue/page-50.html
