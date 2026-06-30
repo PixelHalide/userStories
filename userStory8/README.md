@@ -44,14 +44,15 @@ userStory8/logs/billing.log
 From the repository root:
 
 ```bash
-python3 -m unittest discover -s userStory8/tests
+python3 -m userStory8.run_tests
 ```
 
-Optional coverage check:
+This runs all unit tests and prints the coverage percentage. The coverage check fails if coverage is below `80%`.
+
+To run only the unit tests without coverage:
 
 ```bash
-python3 -m coverage run -m unittest discover -s userStory8/tests
-python3 -m coverage report
+python3 -m unittest discover -s userStory8/tests
 ```
 
 ## Assumptions made

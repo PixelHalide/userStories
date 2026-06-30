@@ -28,6 +28,13 @@ class TestBillingEngine(unittest.TestCase):
         self.assertEqual(overage_gb, 0)
         self.assertEqual(total_bill, 0)
 
+    def test_invalid_numeric_values_default_to_zero(self):
+        with self.assertLogs("userStory8.src.billing_engine", level="WARNING"):
+            overage_gb, total_bill = calculate_bill(None, "bad-limit", "bad-usage", "ACTIVE")
+
+        self.assertEqual(overage_gb, 0)
+        self.assertEqual(total_bill, 0)
+
 
 if __name__ == "__main__":
     unittest.main()
