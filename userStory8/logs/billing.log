@@ -1,0 +1,6 @@
+2026-06-30 11:12:34,959 - INFO - __main__ - Starting billing engine
+2026-06-30 11:12:34,965 - WARNING - userStory8.src.usage_aggregator - Skipping 3 usage records with invalid dates
+2026-06-30 11:12:34,966 - WARNING - userStory8.src.usage_aggregator - Skipping 1 usage records with negative usage
+2026-06-30 11:12:34,974 - INFO - userStory8.src.reporter - Wrote billing output to /Users/pixel/userStories/userStory8/billing_output.csv
+2026-06-30 11:12:34,974 - INFO - userStory8.src.reporter - Wrote billing summary to /Users/pixel/userStories/userStory8/billing_summary.json
+2026-06-30 11:12:34,974 - INFO - __main__ - Billing engine completed
