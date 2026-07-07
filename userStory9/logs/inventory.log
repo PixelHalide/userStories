@@ -1,0 +1,4 @@
+2026-07-07 13:01:28,883 WARNING Invalid date skipped: transaction_id=T031 date=invalid_date
+2026-07-07 13:01:28,884 WARNING Negative quantity ignored: transaction_id=T033 quantity=-5
+2026-07-07 13:01:28,886 WARNING Unknown product ignored: transaction_id=T032 product_id=P999
+2026-07-07 13:01:28,892 INFO Inventory reconciliation completed
