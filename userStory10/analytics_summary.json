@@ -1,0 +1,10 @@
+{
+  "total_customers": 15,
+  "active_customers": 12,
+  "inactive_customers": 3,
+  "platinum_customers": 0,
+  "gold_customers": 4,
+  "silver_customers": 9,
+  "bronze_customers": 2,
+  "total_revenue": 51200.0
+}
