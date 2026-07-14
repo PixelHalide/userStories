@@ -3,3 +3,8 @@
 2026-07-14 13:24:00,948 WARNING customer_analytics: Order O030 skipped: invalid or negative amount
 2026-07-14 13:24:00,948 WARNING customer_analytics: Orders skipped for unknown customer ID: C999
 2026-07-14 13:24:00,953 INFO customer_analytics: Pipeline completed for 15 customers
+2026-07-14 15:30:13,865 INFO customer_analytics: Customer analytics pipeline started
+2026-07-14 15:30:13,876 WARNING customer_analytics: Order O028 skipped: invalid order date
+2026-07-14 15:30:13,877 WARNING customer_analytics: Order O030 skipped: invalid or negative amount
+2026-07-14 15:30:13,878 WARNING customer_analytics: Orders skipped for unknown customer ID: C999
+2026-07-14 15:30:13,890 INFO customer_analytics: Pipeline completed for 15 customers
