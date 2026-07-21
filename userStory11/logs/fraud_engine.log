@@ -1,0 +1,12 @@
+2026-07-21 15:44:52,565 INFO fraud_engine: Fraud detection and settlement pipeline started
+2026-07-21 15:44:52,570 ERROR fraud_engine: Rejected transaction T016: blocked merchant
+2026-07-21 15:44:52,570 ERROR fraud_engine: Rejected transaction T017: transaction amount must be a positive finite number
+2026-07-21 15:44:52,570 ERROR fraud_engine: Rejected transaction T018: invalid transaction timestamp
+2026-07-21 15:44:52,570 ERROR fraud_engine: Rejected transaction T019: unknown merchant
+2026-07-21 15:44:52,580 INFO fraud_engine: Pipeline completed: 20 input, 16 processed, 4 rejected
+2026-07-21 15:50:34,751 INFO fraud_engine: Fraud detection and settlement pipeline started
+2026-07-21 15:50:34,758 ERROR fraud_engine: Rejected transaction T016: blocked merchant
+2026-07-21 15:50:34,758 ERROR fraud_engine: Rejected transaction T017: transaction amount must be a positive finite number
+2026-07-21 15:50:34,758 ERROR fraud_engine: Rejected transaction T018: invalid transaction timestamp
+2026-07-21 15:50:34,758 ERROR fraud_engine: Rejected transaction T019: unknown merchant
+2026-07-21 15:50:34,767 INFO fraud_engine: Pipeline completed: 20 input, 16 processed, 4 rejected
